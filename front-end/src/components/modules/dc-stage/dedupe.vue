@@ -59,6 +59,27 @@ export default {
       }
     },
 
+        resultConfirm1(code, data) {
+      if (code == 'yes') {
+        this.$alert
+          .error()
+          .setTitle('Confirm')
+          .setMessage(`Data: ${data}`)
+          // .setControls({ no: 'No' })
+          .open();
+      }
+    },
+        resultConfirm2(code, data) {
+      if (code == 'yes') {
+        this.$alert
+          .error()
+          .setTitle('Confirm')
+          .setMessage(`Data: ${data}`)
+          // .setControls({ no: 'No' })
+          .open();
+      }
+    },
+
     default_confirm() {
       this.$alert.CONFIRM(choose => {
         if (choose) {
