@@ -1,0 +1,242 @@
+/* Fix padding of body to resolve problem of table-dragger */
+body {
+  padding-right: 0 !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.15); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0,0,0,0.35);  
+}
+
+.no_padding {
+  padding: 0 !important;
+}
+
+.no_padding_top {
+  padding-top: 0 !important;
+}
+
+.no_padding_bottom {
+  padding-bottom: 0 !important;
+}
+
+.no_padding_vert {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.no_padding_hori {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.no_margin {
+  margin: 0 !important;
+}
+
+.no_margin_top {
+  margin-top: 0 !important;
+}
+
+.no_margin_bottom {
+  margin-bottom: 0 !important;
+}
+
+.no_margin_vert {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.no_margin_hori {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.no_select {
+  user-select: none;
+}
+
+.full_height {
+  height: 100%;
+}
+
+.app-wrapper .block {
+  padding-bottom: 15px;
+}
+
+.app-wrapper .no_padding {
+  padding: 0 !important;
+}
+
+.app-wrapper .no_shaddow {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.app-wrapper .no_margin {
+  margin: 0 !important;
+}
+
+.app-wrapper .sub-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--v-secondary-lighten2);
+}
+
+.app-wrapper .delimiter_row_top.same,
+.app-wrapper .delimiter_row_bottom.same {
+  border-color: #d0d0d0 !important;
+}
+
+.app-wrapper .delimiter_row_bottom {
+  border-bottom: 3px solid #72a09b !important;
+}
+
+.app-wrapper .delimiter_row_top {
+  border-top: 3px solid #72a09b !important;
+}
+
+.app-wrapper .full_text {
+  white-space: nowrap;
+}
+
+.app-wrapper .input_uppercase input {
+  text-transform: uppercase !important;
+}
+
+.app-wrapper .no_result {
+  padding: 20px;
+  color: #00695c;
+  font-size: 15px;
+  text-align: center;
+}
+
+.app-wrapper .v-card__title {
+  color: #00695c;
+}
+
+.app-wrapper .v-card__title.session_block {
+  padding: 10px 16px;
+  font-weight: 600;
+}
+
+.app-wrapper .v-expansion-panel__header {
+  min-height: unset;
+  padding: 0 !important;
+}
+
+.app-wrapper .primary--text,
+.app-wrapper .v-input__control .v-text-field__slot .v-label.v-label--active,
+.app-wrapper .v-input__control .v-text-field__slot .v-label.primary--text {
+  color: #00695c !important;
+  caret-color: #00695c !important;
+}
+
+.app-wrapper .v-text-field__slot .v-label.primary--text {
+  font-weight: bold;
+}
+
+.app-wrapper .v-input--radio-group__input > .accent--text > label {
+  font-weight: bold;
+} 
+
+.app-wrapper .v-datatable__actions__range-controls .v-btn i {
+  color: #777!important;
+}
+
+.app-wrapper .v-datatable__actions__range-controls .v-btn:hover i{
+  color: #00695c!important;
+}
+
+.app-wrapper .v-table .v-input__slot {
+  margin: 0;
+}
+/************ POPUP ************/
+.app-wrapper.popup {
+  height: -webkit-fill-available;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  flex-flow: column;
+}
+
+.app-wrapper.popup .header {
+  background-color: rgb(0, 150, 136);
+  max-height: 60px;
+  min-height: 60px;
+}
+
+.app-wrapper.popup .header .flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-wrapper.popup .header .popup_btn {
+  background: white;
+  color: #00695c;
+}
+
+.app-wrapper.popup .header .popup_btn i {
+  color: #00695c!important;
+}
+
+.app-wrapper.popup .header .popup_btn.icon p {
+  margin: 0 0 0 10px!important;
+}
+
+.app-wrapper.popup .body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.app-wrapper.popup .body .p_title {
+  width: 100%;
+  padding: 10px 0 5px 16px;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 700;
+  background-color: #e1e1e1;
+}
+
+.app-wrapper.popup .body .v-card__text.sub_body {
+  padding-top: 10px;
+}
+
+.btn_ui {
+  background-color: #009688 !important;
+  color: white !important;
+  letter-spacing: normal;
+  height: 30px !important;
+  font-weight: normal !important;
+  border-radius: 5px;
+  text-transform: none !important;
+  font-size: 15px;
+  min-width: 0px !important;
+  margin-top: 0px;
+  font-weight: bold !important;
+}
+
+.btn_popup {
+  background-color: #009688 !important;
+  color: white !important;
+}
+
+.overflow_hidden {
+  overflow: hidden !important;
+}

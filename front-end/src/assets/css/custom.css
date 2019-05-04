@@ -1,0 +1,31 @@
+.primary_color {
+  color: var(--v-primary-base) !important;
+}
+
+.primary_bg_color {
+  background-color: var(--v-primary-base) !important;
+}
+
+.no_active_group i {
+  color: rgba(0, 0, 0, 0.54) !important;
+}
+.text_left {
+  text-align: left !important;
+}
+
+.text_center {
+  text-align: center !important;
+}
+
+.text_right {
+  text-align: right !important;
+}
+
+.full_text_table {
+  white-space: nowrap;
+}
+
+.ui_title {
+  background-color:var(--v-primary-base);
+  height: 60px;
+}
