@@ -30,6 +30,9 @@ export default {
     show() {
       this[this.type.toLowerCase()](this.message_text);
     },
+   show1() {
+      this[this.type.toLowerCase()](this.message_text);
+    },
 
     confirm() {
       this.$alert
